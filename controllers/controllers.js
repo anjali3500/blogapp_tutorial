@@ -1,5 +1,4 @@
 const Blog = require('../model/model');
-
 // find all blogs
 exports.getall = async (req, res) => {
 
