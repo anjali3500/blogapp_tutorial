@@ -29,7 +29,7 @@ app.use('*',(req,res,next)=>{
 
 const port=process.env.PORT || 3000;
 
-app.listen(Port,(err)=>{
+app.listen(port,(err)=>{
     if(err) console.log(err);
-    else console.log(`port is live at ${Port}`);
+    else console.log(`port is live at ${port}`);
 });
